@@ -2,8 +2,8 @@ title: SAIV 2024
 #preposition: at
 description: >-
   The 7th International Symposium on AI Verification in Montreal on July 22–23, 2024
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: /2024 # the subpath of your site, e.g. /blog
+url: "https://www.aiverification.org" # the base hostname & protocol for your site, e.g. https://example.com
 
 remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@v3.6.1"
 
@@ -84,10 +84,12 @@ conference:
         relative_url: /speakers/
       #- name: Location
         #relative_url: /location/
-      - name: Previous Events
+      - name: Editions
         menu:
-        #- name: SAIV 2024
-          #relative_url: /2024/
+        - name: SAIV 2025
+          absolute_url: /2025
+        - name: SAIV 2024
+          disabled: true
         - name: FoMLAS 2023
           absolute_url: 'https://fomlas2023.wixsite.com/fomlas2023'
         - name: WOLVERINE 2023
@@ -132,20 +134,12 @@ conference:
         absolute_url: 'https://link.springer.com/book/978-3-031-65112-0'
 
   # Information boxes
-  #info_bars:
-  #  - title: Welcome to the Conference Theme for Jekyll!
-  #    color: primary
-  #    main_only: true
-  #    text: |
-  #      The Theme was originally made for the [Winterkongress](https://www.digitale-gesellschaft.ch/kongress/), a yearly conference of the [Digital Society Switzerland](https://digitale-gesellschaft.ch/).
-  #
-  #      ---
-  #
-  #      See the [README](github.com/DigitaleGesellschaft/jekyll-theme-conference/) on the project's GitHub repository for further information on how to configure and adapt it to your needs.
-  #  - text: This is just some random content for demonstration purposes.
-  #    color: warning
-  #    pages_only: true
-
+  info_bars:
+    - title: SAIV 2025 
+      text: SAIV 2024 has successfully concluded! Stay tuned for the [coming edition](/2025). 
+      color: warning
+      main_only: false
+      
   # Live indications
   #live:
     #date: 01.01.2020
