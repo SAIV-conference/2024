@@ -135,10 +135,9 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: SAIV 2025 
-      text: SAIV 2024 has successfully concluded! Stay tuned for the [coming edition](/2025). 
+    - text: SAIV 2024 has successfully concluded! Find [here the latest edition](/). 
       color: warning
-      main_only: false
+      main_only: true
       
   # Live indications
   #live:
